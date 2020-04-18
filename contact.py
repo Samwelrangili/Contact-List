@@ -67,7 +67,7 @@ class Contact:
         method that returns a list of all contacts saved
         '''
 
-         self.assertEqual(Contact.display_contacts(),Contact.contact_list)
+        self.assertEqual(Contact.display_contacts(),Contact.contact_list)
 
     @classmethod
     def display_contacts(cls):
